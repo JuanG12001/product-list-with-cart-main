@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Product list with cart</title>
+</head>
+<body>
+
+   <main class="main ">
+
+     <h1 class="main__title container">Desserts</h1>
+
+ 
+     <section class="main__carts container">
+      
+      <!-- <article class="main__cart">
+        <picture class="main_pic">
+
+          <img class="main__img main__img--active" src="assets/images/image-creme-brulee-mobile.jpg" alt="">
+
+            <button class="main__buttoms main__buttoms-false">
+              
+              <img class="main__cart-icon" src="assets/images/icon-add-to-cart.svg" alt="">
+             
+              Add to Cart
+
+            </button>  
+
+          <button class="main__buttoms main__buttoms-two main__buttoms-active">
+       
+          <div class="main__buttoms-flex">
+
+            <img class="main__icon-decrement" src="assets/images/icon-decrement-quantity.svg" alt="">
+        
+            <span class="main__contador">4</span>
+          
+            <img class="main__icon-increment" src="assets/images/icon-increment-quantity.svg" alt="">
+
+          </div>
+
+        </button>    
+
+        </picture>
+          <div class="main_texts">
+            <h3 class="main__category">Waffle</h3>
+            <h2 class="main__name">Waffle with Berries</h2>
+            <h2 class="main__price">$6.50</h2>
+          </div>
+        </article> -->
+        
+     </section>
+
+
+      <aside class="main__your-cart container main__your-cart-true">
+        
+          
+        <h2 class="main__cart-title">Your Cart <span class="main__account-cart">  </span>  </h2>
+  
+        <div class="main__your-cart-art">
+
+          <!-- <article class="main__art-text ">
+          
+            <div class="main__your-art">
+              <h3 class="main__art-name">Classic Tiramisu</h3>
+              <h3 class="main__art-number">
+                <span class="main__art-cantidad">1x</span> 
+                <span class="main__art-price-one">@$5.50</span> 
+                <span class="main__art-price">$5.50</span>  
+              </h3>
+            </div>
+            
+            <img class="main__art-delete" src="assets/images/icon-remove-item.svg" alt="">
+  
+          </article> -->
+
+        </div>
+
+        <div class="main__total">
+
+          <div class="main__container-texts">
+            <h3 class="main__text-order">Order total :</h3>
+            <h2 class="main__total-total"></h2>
+          </div>
+
+          
+          <div class="main__container-total">
+            <img class="main__container-img" src="assets/images/icon-carbon-neutral.svg" alt="">             
+            <h3  class="main__comtainer-text">This is a <span class="main__comtainer-text--color">carbon-neutral</span> delivery</h3>
+          </div>
+
+        </div>
+
+
+        <button class="main__confirm-order main__confirm-order-true">
+              Confirm Order
+        </button>
+
+
+      </aside>  
+
+
+      <!-- Seccion - Articulos Vacios  -->
+
+      <aside class="main__your-cart main__your-cart-art container main__your-cart-false ">
+          
+        <h2 class="main__cart-title">Your Cart <span class="main__account-cart">(0)</span>  </h2>
+
+        <img class="main_img-order" src="assets/images/illustration-empty-cart.svg" alt="">
+     
+
+        <h3 class="main__no-art">Your added items will appear here</h3>
+
+      </aside>  
+
+      
+      <!-- Seccion-Ventana-Confirmar-orden  -->
+
+      <section class="main__order-confirmed container main__order-confirmed-false">
+
+        <img class="main__order-icon" src="assets/images/icon-order-confirmed.svg" alt="">
+
+        <div class="main__order-texts">
+          
+          <h2 class="main__order-title">Order Confirmed</h2>
+          <h4 class="main__order-tag">We Hope you enjoy your food!</h4>
+      
+        </div>
+        
+
+        <div class="main__order-container">
+
+          <div class="main__order-articulo">
+
+            <!-- <article class="main__art-text main__art-text-colum">
+                  <div class="main__your-art main__order-art">
+                      <img class="main__order-img" src="assets/images/image-baklava-thumbnail.jpg" alt="">
+                      <div class="div">
+                        <h3 class="main__art-name">Classic Tiramisu</h3>
+                        <h3 class="main__art-number">1x 
+                        <span class="main__art-price-one">@$5.50</span> 
+                      </div>
+                  </div>
+                  <span class="main__art-price main__order-price">$5.50</span>  
+          </article> -->
+
+          </div>
+      
+
+             <div class="main__container-texts">
+               <h3 class="main__text-order">Order total :</h3>
+               <h2 class=" orderTotal  main__total-order"></h2>
+             </div>
+          
+        </div>
+
+        
+
+        <button class="main__confirm-order main__order-buttom main__confirm-order-false">
+          Star New Order
+        </button>
+
+
+      </section>
+  
+   </main> 
+  
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
+
+
+
